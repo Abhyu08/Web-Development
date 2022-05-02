@@ -1,0 +1,235 @@
+body{
+    /*    font-family: "Montserrat" ,monospace,sans-serif;*/
+    font-family: "Poppins",monospace,sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    /*    height : 45rem;*/
+}
+.title-h1{
+    font-family: "Montserrat" ,monospace,sans-serif;
+    font-size : 3rem;
+    line-height: 1.8;
+    margin-bottom : 15%;
+    /*    margin-top : 10%;*/
+}
+.container-fluid{
+    padding-top: 3% ;
+    padding-bottom: 3%;
+}
+.btn-text1 , .btn-text2{
+    font-family: "Raleway",monospace,sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+/*
+{
+    font-family: "Raleway",monospace,sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+*/
+
+.dwn-btn{
+    margin-right: 4%;
+}
+/* Navigation Bar*/
+#nav-brand{
+    font-size: 2.5rem;
+    font-family: "Ubuntu","Raleway",monospace,sans-serif;
+    margin-left: 0px;
+    font-weight: bolder;
+}
+.navbar{
+    line-height: 1.2;
+}
+.nav-item{
+    padding: 1.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.title-img{
+    /*    width: 20%;*/
+    transform: rotate(30deg); /* Equal to rotateZ(45deg) */
+    position: absolute;
+    z-index: 0;
+}
+.fa-circle-check{
+    width: 200px;
+    height: auto;
+}
+.container-features{
+    font-family: "Raleway",monospace,sans-serif;
+    text-align: center;
+    /*
+    margin-top : 11%;
+    margin-bottom : 11%;
+    */
+    padding-top: 11%;
+    padding-bottom: 11%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.features-img{
+    margin-bottom: 4%;
+    color: indianred;
+}
+.features-img:hover{
+    color: red;
+}
+.features-head{
+    font-family: "Karla","Raleway",monospace,sans-serif;
+}
+.features-para{
+    width: 60%;
+    text-align: center;
+    margin : auto;
+}
+/* testimonials */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+.carousel-testimonial{
+    padding: 7% 22%;
+}
+.testimonials-header{
+    font-family: "Montserrat","Raleway",monospace,sans-serif;
+    font-weight: bolder;
+    padding-bottom: 3.0%;
+    font-size: 2.2rem;
+    color: white;
+}
+.testimonials-img{
+    width: 10%;
+    height: 15%;
+    border-radius: 100%;
+}
+.testimonials-em{
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway",monospace,sans-serif;
+    margin-left: 2.5%;
+}
+.press{
+    background-color: #ef8172;
+    padding-top: 3%;
+    padding-bottom: 7%; 
+    text-align: center;
+
+}
+.press-img{
+    margin: auto;
+    width: 15%;
+}
+#pricing{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: auto 0;
+    font-family: ;
+}
+#pricing > h2{
+    /*    font-size: 2rem;*/
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%; 
+    padding-top:8%; 
+    line-height: 1.2;
+    font-family: "Poppins","Raleway",monospace,sans-serif;
+
+}
+#pricing > p{
+    font-size: 1rem;
+    padding-left: 10%;
+    padding-right:10%; 
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: "Raleway",monospace,sans-serif;
+}   
+.btn-outline-secondary{
+    color: white;
+}
+.card-body{
+    line-height: 2.0;
+}
+#cta{
+    font-size: 3.5rem;
+    background-color: #ff4c68;
+    text-align: center; 
+}
+#cta > h3{
+    font-size: 3.5rem;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    margin: 3% 10%;
+    font-family: "Montserrat" ,monospace,sans-serif;
+    color: white;
+
+}
+#cta > button{
+    margin: 1%;
+}
+#footer{
+    margin: 3% 10% 20% 10%;
+    text-align: center;
+    font-family: "inter","Raleway",monospace,sans-serif;
+    font-size: 1.1rem;
+    /*    font-weight: bold;*/
+}
+.icn-footer{
+    color: indianred;
+    margin: 4% 2%;
+}
+.heart-icn{
+    color : red;
+}
+/*Media Queries ... */
+@media (max-width : 1250px) {
+    #title{
+        text-align: center;
+        align-content: center;
+    }
+    .title-img{
+        width: 50%;
+        margin-top: 10%;
+        align-content: center;
+        position : static;
+        transform : rotate(0);
+    }
+    .title-h1{
+        font-family: "Montserrat" ,monospace,sans-serif;
+        font-size : 2.3rem;
+        line-height: 1.8;
+        margin-bottom : 15%;
+        /*    margin-top : 10%;*/
+    }
+    .navbar{
+        line-height: 1.0;
+    }
+    .dwn-btn{
+        margin-right: 4%;
+        margin-bottom: 4%;
+    }
+    #cta > h3{
+        font-size: 2.5rem;
+        padding-top: 3%;
+        padding-bottom: 0%;
+        margin: 3% 10%;
+        font-family: "Montserrat" ,monospace,sans-serif;
+        color: white;
+
+    }
+    .testimonials-header{
+        font-family: "Montserrat","Raleway",monospace,sans-serif;
+        font-weight: bolder;
+        padding-bottom: 3.0%;
+        font-size: 1.7rem;
+        color: white;
+    }
+}
+
+
